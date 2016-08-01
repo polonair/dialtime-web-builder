@@ -1,0 +1,42 @@
+Template: dialtime_web_admin_hostname
+Type: string
+Default: admin.target-call.ru
+Description: hostaname for admin web interface
+
+Template: dialtime_web_master_hostname
+Type: string
+Default: master.target-call.ru
+Description: hostaname for master web interface
+
+Template: dialtime_web_partner_hostname
+Type: string
+Default: partner.target-call.ru
+Description: hostaname for partner web interface
+
+Template: dialtime_web_static_host
+Type: string
+Default: http://static.target-call.ru/master/
+Description: path to static 
+
+Template: dialtime_web_db_host
+Type: string
+Default: 127.0.0.1
+Description: database host
+
+Template: dialtime_web_db_port
+Type: string
+Default: 3306
+Description: database port
+
+Template: dialtime_web_db_name
+Type: string
+Description: database name
+
+Template: dialtime_web_db_user
+Type: string
+Default: root
+Description: database user
+
+Template: dialtime_web_db_password
+Type: password
+Description: database user password

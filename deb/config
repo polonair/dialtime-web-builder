@@ -1,0 +1,85 @@
+#!/bin/sh
+
+# Подключение команд debconf
+. /usr/share/debconf/confmodule
+
+case "$1" in
+configure|reconfigure)
+
+parameters="/etc/dialtime/web/parameters.yml"
+
+# Запрос
+db_input critical "dialtime_web_admin_hostname" || true # инициализация
+db_go || true # вывод запроса на экран
+db_input critical "dialtime_web_master_hostname" || true # инициализация
+db_go || true # вывод запроса на экран
+db_input critical "dialtime_web_partner_hostname" || true # инициализация
+db_go || true # вывод запроса на экран
+db_input critical "dialtime_web_static_host" || true # инициализация
+db_go || true # вывод запроса на экран
+db_input critical "dialtime_web_db_host" || true # инициализация
+db_go || true # вывод запроса на экран
+db_input critical "dialtime_web_db_port" || true # инициализация
+db_go || true # вывод запроса на экран
+db_input critical "dialtime_web_db_name" || true # инициализация
+db_go || true # вывод запроса на экран
+db_input critical "dialtime_web_db_user" || true # инициализация
+db_go || true # вывод запроса на экран
+db_input critical "dialtime_web_db_password" || true # инициализация
+db_go || true # вывод запроса на экран
+
+
+# Обработка ответа
+db_get "dialtime_web_admin_hostname"
+admin_hn="$RET" 
+db_get "dialtime_web_master_hostname"
+master_hn="$RET" 
+db_get "dialtime_web_partner_hostname"
+partner_hn="$RET" 
+db_get "dialtime_web_static_host"
+static="$RET" 
+db_get "dialtime_web_db_host"
+db_host="$RET" 
+db_get "dialtime_web_db_port"
+db_port="$RET" 
+db_get "dialtime_web_db_name"
+db_name="$RET" 
+db_get "dialtime_web_db_user"
+db_user="$RET" 
+db_get "dialtime_web_db_password"
+db_passwd="$RET" 
+
+echo "# parameters" > $parameters
+echo "parameters:" >> $parameters
+echo "    database_host: $db_host" >> $parameters
+echo "    database_port: $db_port" >> $parameters
+echo "    database_name: $db_name" >> $parameters
+echo "    database_user: $db_user" >> $parameters
+echo "    database_password: $db_passwd" >> $parameters
+echo "    mailer_transport: smtp" >> $parameters
+echo "    mailer_host: 127.0.0.1" >> $parameters
+echo "    mailer_user: null" >> $parameters
+echo "    mailer_password: null" >> $parameters
+echo "    secret: some_secret" >> $parameters
+echo "    admin_host: $admin_hn" >> $parameters
+echo "    master_host: $master_hn" >> $parameters
+echo "    partner_host: $partner_hn" >> $parameters
+echo "    static_host: $static" >> $parameters
+
+dialtime-web dialtime:combine:httpd-config \
+    --daemon=apache \
+    --path=/usr/share/dialtime/web/web \
+    --admin="$admin_hn" \
+    --master="$master_hn" \
+    --partner="$partner_hn"
+a2ensite "$admin_hn".conf
+a2ensite "$master_hn".conf
+a2ensite "$partner_hn".conf
+#service apache2 restart
+
+;;
+*)
+echo "config called with unknown argument \`$1'" >&2
+exit 1
+;;
+esac

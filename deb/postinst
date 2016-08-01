@@ -1,0 +1,16 @@
+#!/bin/sh
+
+. /usr/share/debconf/confmodule
+
+chown -R dialtime:dialtime /var/cache/dialtime /var/log/dialtime /var/lib/dialtime
+chmod -R 2770 /var/cache/dialtime /var/log/dialtime /var/lib/dialtime
+
+a2enmod rewrite
+
+if [ -f /etc/init.d/apache2 ] ; then
+	if [ -x /usr/sbin/invoke-rc.d ]; then
+		invoke-rc.d apache2 reload 3>/dev/null || true
+	else
+		/etc/init.d/apache2 reload 3>/dev/null || true
+	fi
+fi

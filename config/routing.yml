@@ -1,0 +1,14 @@
+admin:
+    resource: "@AdminBundle/Resources/config/routing.xml"
+    host:     "%admin_host%"
+
+master:
+    resource: "@MasterBundle/Resources/config/routing.xml"
+    host:     "%master_host%"
+
+partner:
+    resource: "@PartnerBundle/Resources/config/routing.xml"
+    host:     "%partner_host%"
+
+logout:
+    path:     /logout

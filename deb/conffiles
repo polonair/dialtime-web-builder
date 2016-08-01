@@ -1,0 +1,7 @@
+/etc/dialtime/web/config.yml
+/etc/dialtime/web/config_dev.yml
+/etc/dialtime/web/config_prod.yml
+/etc/dialtime/web/routing.yml
+/etc/dialtime/web/routing_dev.yml
+/etc/dialtime/web/security.yml
+/etc/dialtime/web/parameters.yml
