@@ -9,20 +9,20 @@
     "packages": [
         {
             "name": "dialtime/admin",
-            "version": "0.1.0",
+            "version": "0.1.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:polonair/dialtime-admin.git",
-                "reference": "24acc613e44946a249f9c7c55188afaacc97c4bb"
+                "reference": "e80fc9e11b17ea7d53ae36b124e0bf6cf450f259"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/polonair/dialtime-admin/zipball/24acc613e44946a249f9c7c55188afaacc97c4bb",
-                "reference": "24acc613e44946a249f9c7c55188afaacc97c4bb",
+                "url": "https://api.github.com/repos/polonair/dialtime-admin/zipball/e80fc9e11b17ea7d53ae36b124e0bf6cf450f259",
+                "reference": "e80fc9e11b17ea7d53ae36b124e0bf6cf450f259",
                 "shasum": ""
             },
             "require": {
-                "dialtime/web": "0.1.0"
+                "dialtime/web": "0.1.1"
             },
             "type": "symfony-bundle",
             "autoload": {
@@ -43,29 +43,29 @@
             "description": "Dialtime Admin UI",
             "homepage": "http://dialtime.target-call.ru",
             "support": {
-                "source": "https://github.com/polonair/dialtime-admin/tree/v0.1.0",
+                "source": "https://github.com/polonair/dialtime-admin/tree/v0.1.1",
                 "issues": "https://github.com/polonair/dialtime-admin/issues"
             },
-            "time": "2016-08-01 13:57:05"
+            "time": "2016-08-03 07:42:57"
         },
         {
             "name": "dialtime/combine",
-            "version": "0.1.0",
+            "version": "0.1.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:polonair/dialtime-combine.git",
-                "reference": "96b4d2fe1b30e105e15c521cf2fbfe322cfc3fa9"
+                "reference": "d1f1f292a6c01cbafd02e8bf909b77926b8b8d11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/polonair/dialtime-combine/zipball/96b4d2fe1b30e105e15c521cf2fbfe322cfc3fa9",
-                "reference": "96b4d2fe1b30e105e15c521cf2fbfe322cfc3fa9",
+                "url": "https://api.github.com/repos/polonair/dialtime-combine/zipball/d1f1f292a6c01cbafd02e8bf909b77926b8b8d11",
+                "reference": "d1f1f292a6c01cbafd02e8bf909b77926b8b8d11",
                 "shasum": ""
             },
             "require": {
-                "dialtime/admin": "0.1.0",
-                "dialtime/master": "0.1.0",
-                "dialtime/partner": "0.1.0"
+                "dialtime/admin": "0.1.1",
+                "dialtime/master": "0.1.1",
+                "dialtime/partner": "0.1.1"
             },
             "type": "symfony-bundle",
             "autoload": {
@@ -86,28 +86,28 @@
             "description": "Dialtime Combine Web UI",
             "homepage": "http://dialtime.target-call.ru",
             "support": {
-                "source": "https://github.com/polonair/dialtime-combine/tree/v0.1.0",
+                "source": "https://github.com/polonair/dialtime-combine/tree/v0.1.1",
                 "issues": "https://github.com/polonair/dialtime-combine/issues"
             },
-            "time": "2016-08-01 20:03:24"
+            "time": "2016-08-03 08:24:06"
         },
         {
             "name": "dialtime/common",
-            "version": "0.1.0",
+            "version": "0.1.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:polonair/dialtime-common.git",
-                "reference": "fcbb54497ba820c56278d056fef787a564498a04"
+                "reference": "3510a2095765fa84dce7fab9505c57237d73cf5b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/polonair/dialtime-common/zipball/fcbb54497ba820c56278d056fef787a564498a04",
-                "reference": "fcbb54497ba820c56278d056fef787a564498a04",
+                "url": "https://api.github.com/repos/polonair/dialtime-common/zipball/3510a2095765fa84dce7fab9505c57237d73cf5b",
+                "reference": "3510a2095765fa84dce7fab9505c57237d73cf5b",
                 "shasum": ""
             },
             "require": {
                 "dialtime/dialtime": "0.1.0",
-                "dialtime/model": "0.1.0",
+                "dialtime/model": "0.1.1",
                 "polonair/smsi": "0.1.0"
             },
             "type": "symfony-bundle",
@@ -129,10 +129,10 @@
             "description": "Dialtime Common Bundle",
             "homepage": "http://dialtime.target-call.ru",
             "support": {
-                "source": "https://github.com/polonair/dialtime-common/tree/v0.1.0",
+                "source": "https://github.com/polonair/dialtime-common/tree/v0.1.1",
                 "issues": "https://github.com/polonair/dialtime-common/issues"
             },
-            "time": "2016-08-01 20:20:39"
+            "time": "2016-08-03 06:54:46"
         },
         {
             "name": "dialtime/dialtime",
@@ -177,20 +177,20 @@
         },
         {
             "name": "dialtime/master",
-            "version": "0.1.0",
+            "version": "0.1.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:polonair/dialtime-master.git",
-                "reference": "03c0568dbcbc7d38994755f727f995c7bf4c3119"
+                "reference": "f105b72d1f50ba18164c23405fe9f7ce8b389f40"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/polonair/dialtime-master/zipball/03c0568dbcbc7d38994755f727f995c7bf4c3119",
-                "reference": "03c0568dbcbc7d38994755f727f995c7bf4c3119",
+                "url": "https://api.github.com/repos/polonair/dialtime-master/zipball/f105b72d1f50ba18164c23405fe9f7ce8b389f40",
+                "reference": "f105b72d1f50ba18164c23405fe9f7ce8b389f40",
                 "shasum": ""
             },
             "require": {
-                "dialtime/web": "0.1.0"
+                "dialtime/web": "0.1.1"
             },
             "type": "symfony-bundle",
             "autoload": {
@@ -211,23 +211,23 @@
             "description": "Dialtime Master UI",
             "homepage": "http://dialtime.target-call.ru",
             "support": {
-                "source": "https://github.com/polonair/dialtime-master/tree/v0.1.0",
+                "source": "https://github.com/polonair/dialtime-master/tree/v0.1.1",
                 "issues": "https://github.com/polonair/dialtime-master/issues"
             },
-            "time": "2016-08-01 20:46:16"
+            "time": "2016-08-03 08:01:17"
         },
         {
             "name": "dialtime/model",
-            "version": "0.1.0",
+            "version": "0.1.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:polonair/dialtime-model.git",
-                "reference": "1c5b5724ddf4c99a70edf0d34a50fba83e4d1dea"
+                "reference": "a00547b2b256244614886472ec805d9cfc2522b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/polonair/dialtime-model/zipball/1c5b5724ddf4c99a70edf0d34a50fba83e4d1dea",
-                "reference": "1c5b5724ddf4c99a70edf0d34a50fba83e4d1dea",
+                "url": "https://api.github.com/repos/polonair/dialtime-model/zipball/a00547b2b256244614886472ec805d9cfc2522b9",
+                "reference": "a00547b2b256244614886472ec805d9cfc2522b9",
                 "shasum": ""
             },
             "require": {
@@ -252,27 +252,27 @@
             "description": "Dialtime Model",
             "homepage": "http://dialtime.target-call.ru",
             "support": {
-                "source": "https://github.com/polonair/dialtime-model/tree/v0.1.0",
+                "source": "https://github.com/polonair/dialtime-model/tree/v0.1.1",
                 "issues": "https://github.com/polonair/dialtime-model/issues"
             },
-            "time": "2016-08-01 20:58:29"
+            "time": "2016-08-03 06:29:08"
         },
         {
             "name": "dialtime/partner",
-            "version": "0.1.0",
+            "version": "0.1.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:polonair/dialtime-partner.git",
-                "reference": "46bedaa2cd604f66134b30bd971ebe1de965ce05"
+                "reference": "23960e6852d70da08940a81b66f5a3253e06d810"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/polonair/dialtime-partner/zipball/46bedaa2cd604f66134b30bd971ebe1de965ce05",
-                "reference": "46bedaa2cd604f66134b30bd971ebe1de965ce05",
+                "url": "https://api.github.com/repos/polonair/dialtime-partner/zipball/23960e6852d70da08940a81b66f5a3253e06d810",
+                "reference": "23960e6852d70da08940a81b66f5a3253e06d810",
                 "shasum": ""
             },
             "require": {
-                "dialtime/web": "0.1.0"
+                "dialtime/web": "0.1.1"
             },
             "type": "symfony-bundle",
             "autoload": {
@@ -293,27 +293,27 @@
             "description": "Dialtime Partner UI",
             "homepage": "http://dialtime.target-call.ru",
             "support": {
-                "source": "https://github.com/polonair/dialtime-partner/tree/v0.1.0",
+                "source": "https://github.com/polonair/dialtime-partner/tree/v0.1.1",
                 "issues": "https://github.com/polonair/dialtime-partner/issues"
             },
-            "time": "2016-08-01 21:12:26"
+            "time": "2016-08-03 08:13:03"
         },
         {
             "name": "dialtime/web",
-            "version": "0.1.0",
+            "version": "0.1.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:polonair/dialtime-web.git",
-                "reference": "18c12c8adc8844d98c13dbfb3bb93b037659999a"
+                "reference": "d9eeab28bf419f019a5ff3ebefbb50cbb712503a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/polonair/dialtime-web/zipball/18c12c8adc8844d98c13dbfb3bb93b037659999a",
-                "reference": "18c12c8adc8844d98c13dbfb3bb93b037659999a",
+                "url": "https://api.github.com/repos/polonair/dialtime-web/zipball/d9eeab28bf419f019a5ff3ebefbb50cbb712503a",
+                "reference": "d9eeab28bf419f019a5ff3ebefbb50cbb712503a",
                 "shasum": ""
             },
             "require": {
-                "dialtime/common": "0.1.0"
+                "dialtime/common": "0.1.1"
             },
             "type": "symfony-bundle",
             "autoload": {
@@ -334,10 +334,10 @@
             "description": "Dialtime Web UI",
             "homepage": "http://dialtime.target-call.ru",
             "support": {
-                "source": "https://github.com/polonair/dialtime-web/tree/v0.1.0",
+                "source": "https://github.com/polonair/dialtime-web/tree/v0.1.1",
                 "issues": "https://github.com/polonair/dialtime-web/issues"
             },
-            "time": "2016-08-01 21:42:34"
+            "time": "2016-08-03 07:26:16"
         },
         {
             "name": "doctrine/annotations",
