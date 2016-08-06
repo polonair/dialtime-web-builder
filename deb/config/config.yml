@@ -6,8 +6,8 @@ imports:
 # http://symfony.com/doc/current/best_practices/configuration.html#application-related-configuration
 parameters:
     locale: ru
-    app_version: "0.1.1"
-    app_released: "03.08.2016"
+    app_version: "0.1.2"
+    app_released: "06.08.2016"
 
 framework:
     #esi:             ~
