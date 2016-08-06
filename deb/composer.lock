@@ -4,25 +4,25 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1ecb71b448fc1772aa28c1149bf396be",
-    "content-hash": "a49bbfff6c633ee4a34f5cb7d8cebb6f",
+    "hash": "d48f79ffa443889f1acbddfd42760810",
+    "content-hash": "5e3ee71bd48f670942d2f073e0728d74",
     "packages": [
         {
             "name": "dialtime/admin",
-            "version": "0.1.1",
+            "version": "0.1.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:polonair/dialtime-admin.git",
-                "reference": "e80fc9e11b17ea7d53ae36b124e0bf6cf450f259"
+                "reference": "ba98b2e64d06fdf2e298e10bd0d6057afd9a646b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/polonair/dialtime-admin/zipball/e80fc9e11b17ea7d53ae36b124e0bf6cf450f259",
-                "reference": "e80fc9e11b17ea7d53ae36b124e0bf6cf450f259",
+                "url": "https://api.github.com/repos/polonair/dialtime-admin/zipball/ba98b2e64d06fdf2e298e10bd0d6057afd9a646b",
+                "reference": "ba98b2e64d06fdf2e298e10bd0d6057afd9a646b",
                 "shasum": ""
             },
             "require": {
-                "dialtime/web": "0.1.1"
+                "dialtime/web": "0.1.2"
             },
             "type": "symfony-bundle",
             "autoload": {
@@ -43,29 +43,29 @@
             "description": "Dialtime Admin UI",
             "homepage": "http://dialtime.target-call.ru",
             "support": {
-                "source": "https://github.com/polonair/dialtime-admin/tree/v0.1.1",
+                "source": "https://github.com/polonair/dialtime-admin/tree/v0.1.2",
                 "issues": "https://github.com/polonair/dialtime-admin/issues"
             },
-            "time": "2016-08-03 07:42:57"
+            "time": "2016-08-06 09:15:26"
         },
         {
             "name": "dialtime/combine",
-            "version": "0.1.1",
+            "version": "0.1.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:polonair/dialtime-combine.git",
-                "reference": "d1f1f292a6c01cbafd02e8bf909b77926b8b8d11"
+                "reference": "388d2873544462a1c9ce2e1c1b66fd7a03dcf027"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/polonair/dialtime-combine/zipball/d1f1f292a6c01cbafd02e8bf909b77926b8b8d11",
-                "reference": "d1f1f292a6c01cbafd02e8bf909b77926b8b8d11",
+                "url": "https://api.github.com/repos/polonair/dialtime-combine/zipball/388d2873544462a1c9ce2e1c1b66fd7a03dcf027",
+                "reference": "388d2873544462a1c9ce2e1c1b66fd7a03dcf027",
                 "shasum": ""
             },
             "require": {
-                "dialtime/admin": "0.1.1",
-                "dialtime/master": "0.1.1",
-                "dialtime/partner": "0.1.1"
+                "dialtime/admin": "0.1.2",
+                "dialtime/master": "0.1.2",
+                "dialtime/partner": "0.1.2"
             },
             "type": "symfony-bundle",
             "autoload": {
@@ -86,29 +86,29 @@
             "description": "Dialtime Combine Web UI",
             "homepage": "http://dialtime.target-call.ru",
             "support": {
-                "source": "https://github.com/polonair/dialtime-combine/tree/v0.1.1",
+                "source": "https://github.com/polonair/dialtime-combine/tree/v0.1.2",
                 "issues": "https://github.com/polonair/dialtime-combine/issues"
             },
-            "time": "2016-08-03 08:24:06"
+            "time": "2016-08-06 09:49:58"
         },
         {
             "name": "dialtime/common",
-            "version": "0.1.1",
+            "version": "0.1.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:polonair/dialtime-common.git",
-                "reference": "3510a2095765fa84dce7fab9505c57237d73cf5b"
+                "reference": "98b57b6c719358dd18767a81ca1f0922e8285887"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/polonair/dialtime-common/zipball/3510a2095765fa84dce7fab9505c57237d73cf5b",
-                "reference": "3510a2095765fa84dce7fab9505c57237d73cf5b",
+                "url": "https://api.github.com/repos/polonair/dialtime-common/zipball/98b57b6c719358dd18767a81ca1f0922e8285887",
+                "reference": "98b57b6c719358dd18767a81ca1f0922e8285887",
                 "shasum": ""
             },
             "require": {
-                "dialtime/dialtime": "0.1.0",
-                "dialtime/model": "0.1.1",
-                "polonair/smsi": "0.1.0"
+                "dialtime/dialtime": "0.1.1",
+                "dialtime/model": "0.1.2",
+                "polonair/smsi": "0.1.1"
             },
             "type": "symfony-bundle",
             "autoload": {
@@ -129,23 +129,23 @@
             "description": "Dialtime Common Bundle",
             "homepage": "http://dialtime.target-call.ru",
             "support": {
-                "source": "https://github.com/polonair/dialtime-common/tree/v0.1.1",
+                "source": "https://github.com/polonair/dialtime-common/tree/v0.1.2",
                 "issues": "https://github.com/polonair/dialtime-common/issues"
             },
-            "time": "2016-08-03 06:54:46"
+            "time": "2016-08-06 08:25:05"
         },
         {
             "name": "dialtime/dialtime",
-            "version": "0.1.0",
+            "version": "0.1.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:polonair/dialtime.git",
-                "reference": "dcf25186c752e4b75ec931c61e49cb700b00be67"
+                "reference": "ca331b63ab2f2897dd52c90525033c7c73893e5c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/polonair/dialtime/zipball/dcf25186c752e4b75ec931c61e49cb700b00be67",
-                "reference": "dcf25186c752e4b75ec931c61e49cb700b00be67",
+                "url": "https://api.github.com/repos/polonair/dialtime/zipball/ca331b63ab2f2897dd52c90525033c7c73893e5c",
+                "reference": "ca331b63ab2f2897dd52c90525033c7c73893e5c",
                 "shasum": ""
             },
             "require": {
@@ -170,27 +170,27 @@
             "description": "Dialtime",
             "homepage": "http://dialtime.target-call.ru",
             "support": {
-                "source": "https://github.com/polonair/dialtime/tree/v0.1.0",
+                "source": "https://github.com/polonair/dialtime/tree/v0.1.1",
                 "issues": "https://github.com/polonair/dialtime/issues"
             },
-            "time": "2016-08-01 20:28:48"
+            "time": "2016-08-05 15:57:20"
         },
         {
             "name": "dialtime/master",
-            "version": "0.1.1",
+            "version": "0.1.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:polonair/dialtime-master.git",
-                "reference": "f105b72d1f50ba18164c23405fe9f7ce8b389f40"
+                "reference": "515ac375325acb6a3e32ea6a0badb18b29b13348"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/polonair/dialtime-master/zipball/f105b72d1f50ba18164c23405fe9f7ce8b389f40",
-                "reference": "f105b72d1f50ba18164c23405fe9f7ce8b389f40",
+                "url": "https://api.github.com/repos/polonair/dialtime-master/zipball/515ac375325acb6a3e32ea6a0badb18b29b13348",
+                "reference": "515ac375325acb6a3e32ea6a0badb18b29b13348",
                 "shasum": ""
             },
             "require": {
-                "dialtime/web": "0.1.1"
+                "dialtime/web": "0.1.2"
             },
             "type": "symfony-bundle",
             "autoload": {
@@ -211,23 +211,23 @@
             "description": "Dialtime Master UI",
             "homepage": "http://dialtime.target-call.ru",
             "support": {
-                "source": "https://github.com/polonair/dialtime-master/tree/v0.1.1",
+                "source": "https://github.com/polonair/dialtime-master/tree/v0.1.2",
                 "issues": "https://github.com/polonair/dialtime-master/issues"
             },
-            "time": "2016-08-03 08:01:17"
+            "time": "2016-08-06 09:34:11"
         },
         {
             "name": "dialtime/model",
-            "version": "0.1.1",
+            "version": "0.1.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:polonair/dialtime-model.git",
-                "reference": "a00547b2b256244614886472ec805d9cfc2522b9"
+                "reference": "0024954eeb1924241e382a46fc38240ea461b2d7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/polonair/dialtime-model/zipball/a00547b2b256244614886472ec805d9cfc2522b9",
-                "reference": "a00547b2b256244614886472ec805d9cfc2522b9",
+                "url": "https://api.github.com/repos/polonair/dialtime-model/zipball/0024954eeb1924241e382a46fc38240ea461b2d7",
+                "reference": "0024954eeb1924241e382a46fc38240ea461b2d7",
                 "shasum": ""
             },
             "require": {
@@ -252,27 +252,27 @@
             "description": "Dialtime Model",
             "homepage": "http://dialtime.target-call.ru",
             "support": {
-                "source": "https://github.com/polonair/dialtime-model/tree/v0.1.1",
+                "source": "https://github.com/polonair/dialtime-model/tree/v0.1.2",
                 "issues": "https://github.com/polonair/dialtime-model/issues"
             },
-            "time": "2016-08-03 06:29:08"
+            "time": "2016-08-06 07:30:54"
         },
         {
             "name": "dialtime/partner",
-            "version": "0.1.1",
+            "version": "0.1.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:polonair/dialtime-partner.git",
-                "reference": "23960e6852d70da08940a81b66f5a3253e06d810"
+                "reference": "e23ee66acefba5cd1063c232e92d5f4e8c1f6201"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/polonair/dialtime-partner/zipball/23960e6852d70da08940a81b66f5a3253e06d810",
-                "reference": "23960e6852d70da08940a81b66f5a3253e06d810",
+                "url": "https://api.github.com/repos/polonair/dialtime-partner/zipball/e23ee66acefba5cd1063c232e92d5f4e8c1f6201",
+                "reference": "e23ee66acefba5cd1063c232e92d5f4e8c1f6201",
                 "shasum": ""
             },
             "require": {
-                "dialtime/web": "0.1.1"
+                "dialtime/web": "0.1.2"
             },
             "type": "symfony-bundle",
             "autoload": {
@@ -293,27 +293,27 @@
             "description": "Dialtime Partner UI",
             "homepage": "http://dialtime.target-call.ru",
             "support": {
-                "source": "https://github.com/polonair/dialtime-partner/tree/v0.1.1",
+                "source": "https://github.com/polonair/dialtime-partner/tree/v0.1.2",
                 "issues": "https://github.com/polonair/dialtime-partner/issues"
             },
-            "time": "2016-08-03 08:13:03"
+            "time": "2016-08-06 09:42:33"
         },
         {
             "name": "dialtime/web",
-            "version": "0.1.1",
+            "version": "0.1.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:polonair/dialtime-web.git",
-                "reference": "d9eeab28bf419f019a5ff3ebefbb50cbb712503a"
+                "reference": "bbf5684d768e82c7dc462fb04d1650e0c5118d7c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/polonair/dialtime-web/zipball/d9eeab28bf419f019a5ff3ebefbb50cbb712503a",
-                "reference": "d9eeab28bf419f019a5ff3ebefbb50cbb712503a",
+                "url": "https://api.github.com/repos/polonair/dialtime-web/zipball/bbf5684d768e82c7dc462fb04d1650e0c5118d7c",
+                "reference": "bbf5684d768e82c7dc462fb04d1650e0c5118d7c",
                 "shasum": ""
             },
             "require": {
-                "dialtime/common": "0.1.1"
+                "dialtime/common": "0.1.2"
             },
             "type": "symfony-bundle",
             "autoload": {
@@ -334,10 +334,10 @@
             "description": "Dialtime Web UI",
             "homepage": "http://dialtime.target-call.ru",
             "support": {
-                "source": "https://github.com/polonair/dialtime-web/tree/v0.1.1",
+                "source": "https://github.com/polonair/dialtime-web/tree/v0.1.2",
                 "issues": "https://github.com/polonair/dialtime-web/issues"
             },
-            "time": "2016-08-03 07:26:16"
+            "time": "2016-08-06 09:03:03"
         },
         {
             "name": "doctrine/annotations",
@@ -1284,16 +1284,16 @@
         },
         {
             "name": "polonair/smsi",
-            "version": "0.1.0",
+            "version": "0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/polonair/smsi.git",
-                "reference": "6400d0836174c2196ea281b04b4acaef6189b92b"
+                "reference": "2b7367a94a0cc04bcbd643ff936a83a1250943cc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/polonair/smsi/zipball/6400d0836174c2196ea281b04b4acaef6189b92b",
-                "reference": "6400d0836174c2196ea281b04b4acaef6189b92b",
+                "url": "https://api.github.com/repos/polonair/smsi/zipball/2b7367a94a0cc04bcbd643ff936a83a1250943cc",
+                "reference": "2b7367a94a0cc04bcbd643ff936a83a1250943cc",
                 "shasum": ""
             },
             "require": {
@@ -1318,10 +1318,56 @@
             "description": "Smsi Bundle",
             "homepage": "https://github.com/polonair/smsi",
             "support": {
-                "source": "https://github.com/polonair/smsi/tree/v0.1.0",
+                "source": "https://github.com/polonair/smsi/tree/v0.1.1",
                 "issues": "https://github.com/polonair/smsi/issues"
             },
-            "time": "2016-08-01 21:30:49"
+            "time": "2016-08-06 08:06:58"
+        },
+        {
+            "name": "psr/cache",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/cache.git",
+                "reference": "9e66031f41fbbdda45ee11e93c45d480ccba3eb3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/cache/zipball/9e66031f41fbbdda45ee11e93c45d480ccba3eb3",
+                "reference": "9e66031f41fbbdda45ee11e93c45d480ccba3eb3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Cache\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for caching libraries",
+            "keywords": [
+                "cache",
+                "psr",
+                "psr-6"
+            ],
+            "time": "2015-12-11 02:52:07"
         },
         {
             "name": "psr/log",
@@ -1473,6 +1519,59 @@
                 "logging"
             ],
             "time": "2016-04-13 16:21:01"
+        },
+        {
+            "name": "symfony/polyfill-apcu",
+            "version": "v1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-apcu.git",
+                "reference": "6d58bceaeea2c2d3eb62503839b18646e161cd6b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-apcu/zipball/6d58bceaeea2c2d3eb62503839b18646e161cd6b",
+                "reference": "6d58bceaeea2c2d3eb62503839b18646e161cd6b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.2-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill backporting apcu_* functions to lower PHP versions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "apcu",
+                "compatibility",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "time": "2016-05-18 14:26:46"
         },
         {
             "name": "symfony/polyfill-intl-icu",
@@ -1817,21 +1916,22 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v3.0.9",
+            "version": "v3.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "634fb8c018532c820debd2678e452a735b9f438e"
+                "reference": "4478f047409028dc6e3ab320590f1247fec7a850"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/634fb8c018532c820debd2678e452a735b9f438e",
-                "reference": "634fb8c018532c820debd2678e452a735b9f438e",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/4478f047409028dc6e3ab320590f1247fec7a850",
+                "reference": "4478f047409028dc6e3ab320590f1247fec7a850",
                 "shasum": ""
             },
             "require": {
                 "doctrine/common": "~2.4",
                 "php": ">=5.5.9",
+                "psr/cache": "~1.0",
                 "psr/log": "~1.0",
                 "symfony/polyfill-intl-icu": "~1.0",
                 "symfony/polyfill-mbstring": "~1.0",
@@ -1841,11 +1941,13 @@
                 "twig/twig": "~1.23|~2.0"
             },
             "conflict": {
-                "phpdocumentor/reflection": "<1.0.7"
+                "phpdocumentor/reflection-docblock": "<3.0",
+                "phpdocumentor/type-resolver": "<0.2.0"
             },
             "replace": {
                 "symfony/asset": "self.version",
                 "symfony/browser-kit": "self.version",
+                "symfony/cache": "self.version",
                 "symfony/class-loader": "self.version",
                 "symfony/config": "self.version",
                 "symfony/console": "self.version",
@@ -1890,6 +1992,8 @@
                 "symfony/yaml": "self.version"
             },
             "require-dev": {
+                "cache/integration-tests": "dev-master",
+                "doctrine/cache": "~1.6",
                 "doctrine/data-fixtures": "1.0.*",
                 "doctrine/dbal": "~2.4",
                 "doctrine/doctrine-bundle": "~1.4",
@@ -1897,14 +2001,15 @@
                 "egulias/email-validator": "~1.2,>=1.2.1",
                 "monolog/monolog": "~1.11",
                 "ocramius/proxy-manager": "~0.4|~1.0|~2.0",
-                "phpdocumentor/reflection": "^1.0.7",
+                "phpdocumentor/reflection-docblock": "^3.0",
+                "predis/predis": "~1.0",
                 "symfony/polyfill-apcu": "~1.1",
                 "symfony/security-acl": "~2.8|~3.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0-dev"
+                    "dev-master": "3.1-dev"
                 }
             },
             "autoload": {
@@ -1943,7 +2048,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2016-07-30 09:10:53"
+            "time": "2016-07-30 09:31:00"
         },
         {
             "name": "twig/twig",
@@ -2016,5 +2121,8 @@
     "platform": {
         "php": ">=5.5.9"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "platform-overrides": {
+        "php": "5.5.9"
+    }
 }

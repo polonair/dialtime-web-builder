@@ -1,17 +1,18 @@
 {
 	"autoload":          { "classmap": [ "app/AppKernel.php", "app/AppCache.php" ] },
-    "config":            { "secure-http": false },
+    "config":            { "secure-http": false, "platform": { "php": "5.5.9" } },
     "prefer-stable":     true,
     "minimum-stability": "dev",
     "require":         
     {
         "php":                            ">=5.5.9",
-        "symfony/symfony":                "3.0.*",
+        "symfony/symfony":                "3.1.*",
         "doctrine/orm":                   "^2.5",
         "doctrine/doctrine-bundle":       "^1.6",
         "doctrine/doctrine-cache-bundle": "^1.2",
         "symfony/swiftmailer-bundle":     "^2.3",
         "symfony/monolog-bundle":         "^2.8",
+        "symfony/polyfill-apcu":          "^1.0",
         "dialtime/combine":               "^0.1"
     },
     "repositories": 

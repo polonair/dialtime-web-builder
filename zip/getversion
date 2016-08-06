@@ -1,0 +1,12 @@
+#!/usr/bin/env php
+<?php
+
+$data=json_decode(file_get_contents('composer.lock'));
+foreach($data->packages as $p)
+{
+	if($p->name=='dialtime/web')
+	{
+		echo $p->version;
+		break;
+	}
+}
