@@ -17,14 +17,14 @@
     },
     "repositories": 
     [
-        { "type": "vcs", "url": "git@github.com:polonair/dialtime-combine.git" },
+        { "type": "vcs", "url": "git@github.com:polonair/dialtime.git" },
         { "type": "vcs", "url": "git@github.com:polonair/dialtime-admin.git" },
+        { "type": "vcs", "url": "git@github.com:polonair/dialtime-combine.git" },
+        { "type": "vcs", "url": "git@github.com:polonair/dialtime-common.git" },
         { "type": "vcs", "url": "git@github.com:polonair/dialtime-master.git" },
+        { "type": "vcs", "url": "git@github.com:polonair/dialtime-model.git" },
         { "type": "vcs", "url": "git@github.com:polonair/dialtime-partner.git" },
         { "type": "vcs", "url": "git@github.com:polonair/dialtime-web.git" },
-        { "type": "vcs", "url": "git@github.com:polonair/dialtime-common.git" },
-        { "type": "vcs", "url": "git@github.com:polonair/dialtime.git" },
-        { "type": "vcs", "url": "git@github.com:polonair/dialtime-model.git" },
         { "type": "vcs", "url": "git@github.com:polonair/smsi.git" }
     ]
 }

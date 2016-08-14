@@ -69,5 +69,5 @@ swiftmailer:
     spool:     { type: memory }
 
 smsi:
-    login: fixnim
-    password: c789ba64c4200a2f0fc1ef7c29b04609
+    login: "%smsi_login%"
+    password: "%smsi_password%"
