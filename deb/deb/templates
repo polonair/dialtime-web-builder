@@ -40,3 +40,13 @@ Description: database user
 Template: dialtime_web_db_password
 Type: password
 Description: database user password
+
+Template: dialtime_web_smsi_login
+Type: string
+Default: ~
+Description: smsc login
+
+Template: dialtime_web_smsi_password
+Type: string
+Default: ~
+Description: smsc password
