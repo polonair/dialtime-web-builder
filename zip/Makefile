@@ -1,6 +1,6 @@
 .PHONY: all clean 
 
-VERSION=$(shell php getversion)
+VERSION=$(shell cat version)
 
 all:
 	composer install
