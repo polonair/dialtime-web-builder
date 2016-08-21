@@ -1,0 +1,18 @@
+# parameters 
+parameters: 
+    database_host: ~
+    database_port: ~
+    database_name: ~
+    database_user: ~
+    database_password: ~
+    secret: some_secret
+    mailer_transport: ~
+    mailer_host: ~
+    mailer_user: ~
+    mailer_password: ~
+    admin_host: ~
+    master_host: ~
+    partner_host: ~
+    static_host: ~
+    smsi_login: ~
+    smsi_password: ~
