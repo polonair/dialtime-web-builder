@@ -1,3 +1,10 @@
+dialtime-web (0.1.7) stable; urgency=medium
+
+  * Dependecy on mysql-server removed.
+  * Parameter 'secret' automatically generated.
+
+ -- Alexander Mosyagin <fixnim@gmail.com>  Sun, 21 Aug 2016 15:42:24 -0400
+
 dialtime-web (0.1.6) stable; urgency=medium
 
   * Bugs fixed.
