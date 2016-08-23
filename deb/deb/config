@@ -56,7 +56,7 @@ smsi_login="$RET"
 db_get "dialtime_web_smsi_password"
 smsi_password="$RET"
 
-secret=`date | md5sum | grep -o [a-z0-9]*`
+secret=`date | md5sum | grep -o '[a-z0-9]*'`
 
 echo "# parameters" > $parameters
 echo "parameters:" >> $parameters
