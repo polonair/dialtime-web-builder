@@ -1,5 +1,5 @@
 Package: dialtime-web
-Version: 0.1.9
+Version: 0.1.10
 Section: misc
 Architecture: all
 Depends: apache2 (>=2.2), libapache2-mpm-itk (>=2.2), debconf, php (>=5.5.9), php-cli (>=5.5.9), php-mysql (>=5.5.9), php-curl(>=5.5.9)
