@@ -1,13 +1,17 @@
 admin:
-    resource: "@AdminBundle/Resources/config/routing.xml"
+    resource: "@ApiBundle/Resources/config/admin.routing.xml"
     host:     "%admin_host%"
 
+manager:
+    resource: "@ApiBundle/Resources/config/manager.routing.xml"
+    host:     "%manager_host%"
+
 master:
-    resource: "@MasterBundle/Resources/config/routing.xml"
+    resource: "@ApiBundle/Resources/config/master.routing.xml"
     host:     "%master_host%"
 
 partner:
-    resource: "@PartnerBundle/Resources/config/routing.xml"
+    resource: "@ApiBundle/Resources/config/partner.routing.xml"
     host:     "%partner_host%"
 
 logout:

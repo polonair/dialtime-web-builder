@@ -19,11 +19,7 @@ class AppKernel extends Kernel
             new Polonairs\Dialtime\ModelBundle\ModelBundle(),
             new Polonairs\SmsiBundle\SmsiBundle(),
             new Polonairs\Dialtime\CommonBundle\CommonBundle(),
-            new Polonairs\Dialtime\WebBundle\WebBundle(),
-            new Polonairs\Dialtime\AdminBundle\AdminBundle(),
-            new Polonairs\Dialtime\MasterBundle\MasterBundle(),
-            new Polonairs\Dialtime\PartnerBundle\PartnerBundle(),
-            new Polonairs\Dialtime\CombineBundle\CombineBundle(),
+            new Polonairs\Dialtime\ApiBundle\ApiBundle(),
         ];
 
         if (in_array($this->getEnvironment(), ['dev', 'test'], true)) {

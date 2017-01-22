@@ -12,7 +12,7 @@ framework:
     #translator:      { fallbacks: ["%locale%"] }
     secret:          "%secret%"
     router:
-        resource: "/etc/dialtime/web/routing.yml"
+        resource: "/etc/dialtime/api/routing.yml"
         strict_requirements: ~
     form:            ~
     csrf_protection: ~

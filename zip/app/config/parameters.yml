@@ -11,6 +11,7 @@ parameters:
     mailer_user: ~
     mailer_password: ~
     admin_host: ~
+    manager_host: ~
     master_host: ~
     partner_host: ~
     static_host: ~

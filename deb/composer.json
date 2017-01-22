@@ -13,18 +13,14 @@
         "symfony/swiftmailer-bundle":     "^2.3",
         "symfony/monolog-bundle":         "^2.8",
         "symfony/polyfill-apcu":          "^1.0",
-        "dialtime/combine":               "^0.1"
+        "dialtime/api":                   "^0.1"
     },
     "repositories": 
     [
         { "type": "vcs", "url": "git@github.com:polonair/dialtime.git" },
-        { "type": "vcs", "url": "git@github.com:polonair/dialtime-admin.git" },
-        { "type": "vcs", "url": "git@github.com:polonair/dialtime-combine.git" },
+        { "type": "vcs", "url": "git@github.com:polonair/dialtime-api.git" },
         { "type": "vcs", "url": "git@github.com:polonair/dialtime-common.git" },
-        { "type": "vcs", "url": "git@github.com:polonair/dialtime-master.git" },
         { "type": "vcs", "url": "git@github.com:polonair/dialtime-model.git" },
-        { "type": "vcs", "url": "git@github.com:polonair/dialtime-partner.git" },
-        { "type": "vcs", "url": "git@github.com:polonair/dialtime-web.git" },
         { "type": "vcs", "url": "git@github.com:polonair/smsi.git" }
     ]
 }

@@ -19,11 +19,7 @@ class AppKernel extends Kernel
             new Polonairs\Dialtime\ModelBundle\ModelBundle(),
             new Polonairs\SmsiBundle\SmsiBundle(),
             new Polonairs\Dialtime\CommonBundle\CommonBundle(),
-            new Polonairs\Dialtime\WebBundle\WebBundle(),
-            new Polonairs\Dialtime\AdminBundle\AdminBundle(),
-            new Polonairs\Dialtime\MasterBundle\MasterBundle(),
-            new Polonairs\Dialtime\PartnerBundle\PartnerBundle(),
-            new Polonairs\Dialtime\CombineBundle\CombineBundle(),
+            new Polonairs\Dialtime\ApiBundle\ApiBundle(),
         ];
 
         if (in_array($this->getEnvironment(), ['dev', 'test'], true)) {
@@ -41,16 +37,16 @@ class AppKernel extends Kernel
 
     public function getCacheDir()
     {
-        return '/var/cache/dialtime/web/'.$this->getEnvironment();
+        return '/var/cache/dialtime/api/'.$this->getEnvironment();
     }
 
     public function getLogDir()
     {
-        return '/var/log/dialtime/web/';
+        return '/var/log/dialtime/api/';
     }
     
     public function registerContainerConfiguration(LoaderInterface $loader)
     {
-        $loader->load('/etc/dialtime/web/config_'.$this->getEnvironment().'.yml');
+        $loader->load('/etc/dialtime/api/config_'.$this->getEnvironment().'.yml');
     }
 }
