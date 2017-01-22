@@ -3,5 +3,4 @@
 /etc/dialtime/api/config_prod.yml
 /etc/dialtime/api/routing.yml
 /etc/dialtime/api/routing_dev.yml
-/etc/dialtime/api/security.yml
 /etc/dialtime/api/parameters.yml

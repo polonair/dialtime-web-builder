@@ -1,3 +1,9 @@
+dialtime-web (0.1.21) stable; urgency=medium
+
+  * Bugs fixed.
+
+ -- Alexander Mosyagin <fixnim@gmail.com>  Sun, 22 Jan 2017 18:09:40 -0400
+
 dialtime-web (0.1.20) stable; urgency=medium
 
   * Bugs fixed.
