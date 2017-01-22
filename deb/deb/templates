@@ -3,6 +3,11 @@ Type: string
 Default: admin.target-call.ru
 Description: hostaname for admin web interface
 
+Template: dialtime_web_manager_hostname
+Type: string
+Default: manager.target-call.ru
+Description: hostaname for manager web interface
+
 Template: dialtime_web_master_hostname
 Type: string
 Default: master.target-call.ru

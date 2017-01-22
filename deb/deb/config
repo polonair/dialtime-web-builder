@@ -11,6 +11,8 @@ parameters="/etc/dialtime/web/parameters.yml"
 # Запрос
 db_input critical "dialtime_web_admin_hostname" || true # инициализация
 db_go || true # вывод запроса на экран
+db_input critical "dialtime_web_manager_hostname" || true # инициализация
+db_go || true # вывод запроса на экран
 db_input critical "dialtime_web_master_hostname" || true # инициализация
 db_go || true # вывод запроса на экран
 db_input critical "dialtime_web_partner_hostname" || true # инициализация
@@ -35,6 +37,8 @@ db_go || true # вывод запроса на экран
 # Обработка ответа
 db_get "dialtime_web_admin_hostname"
 admin_hn="$RET" 
+db_get "dialtime_web_manager_hostname"
+manager_hn="$RET" 
 db_get "dialtime_web_master_hostname"
 master_hn="$RET" 
 db_get "dialtime_web_partner_hostname"
@@ -70,6 +74,7 @@ echo "    mailer_host: 127.0.0.1" >> $parameters
 echo "    mailer_user: null" >> $parameters
 echo "    mailer_password: null" >> $parameters
 echo "    admin_host: $admin_hn" >> $parameters
+echo "    manager_host: $manager_hn" >> $parameters
 echo "    master_host: $master_hn" >> $parameters
 echo "    partner_host: $partner_hn" >> $parameters
 echo "    static_host: $static" >> $parameters
@@ -77,13 +82,15 @@ echo "    smsi_login: $smsi_login" >> $parameters
 echo "    smsi_password: $smsi_password" >> $parameters
 echo "    secret: $secret" >> $parameters
 
-dialtime-web dialtime:combine:httpd-config \
+dialtime-web dialtime:api:httpd-config \
     --daemon=apache \
     --path=/usr/share/dialtime/web/web \
     --admin="$admin_hn" \
+    --manager="$manager_hn" \
     --master="$master_hn" \
     --partner="$partner_hn"
 a2ensite "$admin_hn".conf
+a2ensite "$manager_hn".conf
 a2ensite "$master_hn".conf
 a2ensite "$partner_hn".conf
 #service apache2 restart

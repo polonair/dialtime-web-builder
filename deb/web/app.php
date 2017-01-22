@@ -4,7 +4,7 @@ use Symfony\Component\HttpFoundation\Request;
 
 umask(0002);
 
-$loader = require '/usr/share/dialtime/web/app/autoload.php';
+$loader = require '/usr/share/dialtime/api/app/autoload.php';
 
 $kernel = new AppKernel('prod', false);
 $kernel->loadClassCache();
