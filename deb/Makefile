@@ -16,7 +16,7 @@ all:
 	cp bin/* build/usr/bin/
 	cp app/* build/usr/share/dialtime/api/app/
 	cp -r vendor/* build/usr/share/dialtime/api/vendor/
-	cp -r api build/usr/share/dialtime/api
+	cp -r web build/usr/share/dialtime/api
 	cp -t build/DEBIAN deb/postinst deb/preinst deb/conffiles deb/config deb/templates
 	sed -e "s/^Installed-size.*/Installed-size: `du -s build/ | grep -o [0-9]*`/" deb/control > build/DEBIAN/control
 	cp deb-doc/* build/usr/share/doc/dialtime-api/
