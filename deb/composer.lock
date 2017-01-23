@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "dialtime/api",
-            "version": "0.1.1",
+            "version": "0.1.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:polonair/dialtime-api.git",
-                "reference": "bea7c57150a7cfa229fc6149d8ca99dc2e12b45c"
+                "reference": "13ec28d62657a9f6c99818579723dafdcc737dd4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/polonair/dialtime-api/zipball/bea7c57150a7cfa229fc6149d8ca99dc2e12b45c",
-                "reference": "bea7c57150a7cfa229fc6149d8ca99dc2e12b45c",
+                "url": "https://api.github.com/repos/polonair/dialtime-api/zipball/13ec28d62657a9f6c99818579723dafdcc737dd4",
+                "reference": "13ec28d62657a9f6c99818579723dafdcc737dd4",
                 "shasum": ""
             },
             "require": {
@@ -42,10 +42,10 @@
             "description": "Dialtime API",
             "homepage": "http://dialtime.target-call.ru",
             "support": {
-                "source": "https://github.com/polonair/dialtime-api/tree/v0.1.1",
+                "source": "https://github.com/polonair/dialtime-api/tree/v0.1.2",
                 "issues": "https://github.com/polonair/dialtime-api/issues"
             },
-            "time": "2017-01-23T07:23:25+00:00"
+            "time": "2017-01-23T10:06:26+00:00"
         },
         {
             "name": "dialtime/common",
