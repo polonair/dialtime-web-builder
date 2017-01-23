@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "dialtime/api",
-            "version": "0.1.0",
+            "version": "0.1.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:polonair/dialtime-api.git",
-                "reference": "626c4f5740caf43e66d113922069f9938cd48cf8"
+                "reference": "bea7c57150a7cfa229fc6149d8ca99dc2e12b45c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/polonair/dialtime-api/zipball/626c4f5740caf43e66d113922069f9938cd48cf8",
-                "reference": "626c4f5740caf43e66d113922069f9938cd48cf8",
+                "url": "https://api.github.com/repos/polonair/dialtime-api/zipball/bea7c57150a7cfa229fc6149d8ca99dc2e12b45c",
+                "reference": "bea7c57150a7cfa229fc6149d8ca99dc2e12b45c",
                 "shasum": ""
             },
             "require": {
@@ -42,10 +42,10 @@
             "description": "Dialtime API",
             "homepage": "http://dialtime.target-call.ru",
             "support": {
-                "source": "https://github.com/polonair/dialtime-api/tree/v0.1.0",
+                "source": "https://github.com/polonair/dialtime-api/tree/v0.1.1",
                 "issues": "https://github.com/polonair/dialtime-api/issues"
             },
-            "time": "2017-01-22T11:22:26+00:00"
+            "time": "2017-01-23T07:23:25+00:00"
         },
         {
             "name": "dialtime/common",
@@ -523,16 +523,16 @@
         },
         {
             "name": "doctrine/doctrine-bundle",
-            "version": "1.6.6",
+            "version": "1.6.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/DoctrineBundle.git",
-                "reference": "0f0c4df366bd1d36d38a27e2f5ff128e118ac969"
+                "reference": "a01d99bc6c9a6c8a8ace0012690099dd957ce9b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/0f0c4df366bd1d36d38a27e2f5ff128e118ac969",
-                "reference": "0f0c4df366bd1d36d38a27e2f5ff128e118ac969",
+                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/a01d99bc6c9a6c8a8ace0012690099dd957ce9b9",
+                "reference": "a01d99bc6c9a6c8a8ace0012690099dd957ce9b9",
                 "shasum": ""
             },
             "require": {
@@ -600,7 +600,7 @@
                 "orm",
                 "persistence"
             ],
-            "time": "2017-01-07T21:47:22+00:00"
+            "time": "2017-01-16T12:01:26+00:00"
         },
         {
             "name": "doctrine/doctrine-cache-bundle",
