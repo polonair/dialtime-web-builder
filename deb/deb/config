@@ -6,7 +6,7 @@
 case "$1" in
 configure|reconfigure)
 
-parameters="/etc/dialtime/web/parameters.yml"
+parameters="/etc/dialtime/api/parameters.yml"
 
 # Запрос
 db_input critical "dialtime_web_admin_hostname" || true # инициализация
